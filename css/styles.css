@@ -28,6 +28,12 @@ body {
   backdrop-filter: blur(10px);
 }
 
+.glass-blue {
+  background-color: rgba(194, 218, 255, 0.556);
+  -webkit-backdrop-filter: blur(40px);
+  backdrop-filter: blur(10px);
+}
+
 .grow {
   flex-grow: 1;
 }
