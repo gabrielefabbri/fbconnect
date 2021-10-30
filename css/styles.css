@@ -88,14 +88,22 @@ body {
   margin: 0 2rem;
 }
 #main .content .inner .box4 {
-  width: 50%;
+  flex-grow: 1;
   padding: 2rem;
   font-size: 1.3em;
 }
-#main .content .inner .foto {
-  width: 50%;
+#main .content .inner .foto-container {
   min-width: 300px;
   border-left: 2px solid black;
+}
+#main .content .inner .foto-container .foto {
+  width: 100%;
+  overflow: hidden;
+}
+#main .content .inner .foto-container .foto img {
+  width: 100%;
+  height: auto;
+  transform: scale(1);
 }
 
 /*# sourceMappingURL=styles.css.map */
